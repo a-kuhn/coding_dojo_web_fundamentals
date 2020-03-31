@@ -1,0 +1,11 @@
+*{
+    margin-left: 100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    margin-top: 4px;
+    width: 400px;
+}

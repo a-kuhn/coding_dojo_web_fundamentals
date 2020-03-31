@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(22, 38, 75);
+}
+
+
+/* this is much larger than the assignment specified. i couldn't get the text to fit in the boxes */
+#header{
+    width: 1475px;
+    height: 100px;
+    background-color: rgb(194, 26, 42);
+    padding: 25px;
+    margin: 15px;
+}
+
+#left-sidebar{
+    width: 280px;
+    background-color: rgb(34, 107, 121);
+    display: inline-block;
+    vertical-align: top;
+    padding: 20px;
+    margin: 15px;
+}
+
+.list-indent{
+    margin-left: 1.2em;
+}
+
+.sub-list{
+    margin-left: 2em;
+}
+
+#main-container{
+    width: 1160px;
+    background-color:rgb(13, 18, 26);
+    display: inline-block;
+    color:	rgb(182, 204, 231);
+    padding: 30px;
+    margin: 15px;
+    vertical-align: top;
+}
+
+#main-container li{
+    padding: 20px;
+}
+
+#main-container h2{
+    margin-top: 20px;
+}
+
+#main-container p{
+    margin-top: 10px;
+}
+
+#footer{
+    width: 1475px;
+    height: 70px;
+    background-color:rgb(75, 83, 96);
+    padding: 22px;
+    margin: 15px;
+
+}
+
+a{
+    color:	rgb(78, 191, 191);
+}
+
+span{
+    color:	rgb(64, 66, 198);
+}
+
+/* BORDER PROPERTIES */
+.b-radius{
+    border-radius: 15px;
+}
+
+/* COLORS */
+.text-color{
+    color:	rgb(182, 204, 231);
+}
+.link-color{
+    color:	rgb(78, 191, 191);
+}

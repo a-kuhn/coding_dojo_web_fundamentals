@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgb(28,62,99),rgb(40,95,154));
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FONT COLORS */
+.yellow-font{
+    color: rgb(226,188,48);	
+}
+.blue-font{
+    color: rgb(114,166,218);
+}
+.white-font{
+    color: rgb(254,254,254);
+}
+.black-font{
+    color: rgb(4, 4, 4);
+}
+
+/* SHADOW BORDER */
+.shadow{
+    border-radius: 5px;
+    box-shadow: 3px 3px 0px rgb(24,27,30);
+}
+
+/* HEADER */
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    margin: 20px;
+}
+.search-bar{
+    background-color: rgb(52,52,52);
+    padding: 15px 50px;
+}
+.align-right{
+    text-align: right;
+}
+.right-margin{
+    margin-right: 40px;
+}
+.d-inline-block{
+    display: inline-block;
+}
+
+#search-box{
+    width: 200px;
+    color: rgb(165,165,165);
+    background-color: rgb(255, 255, 255);
+    border: 3px solid rgb(179, 179, 179);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    font-size: .8em;
+}
+#go-button{
+    height: 40px;
+    width: 50px;
+    color: rgb(254,254,254);
+    background-color: rgb(28, 62, 99);
+    padding-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: inset 0 3px 0 rgb(179, 179, 179), inset 0 -3px 0 rgb(88,88,89);
+}
+
+/* NAV BAR */
+#nav-bar{
+    background-color: rgb(56,105,157);
+    font-size: 1.5em;
+    width: 1200px;
+    margin: 0 auto;
+}
+nav li{
+    display: inline-block;
+    margin: 10px 30px;
+}
+
+.v-align-top{
+    vertical-align: top;
+}
+#left-sidebar{
+    text-decoration: underline;
+    text-align: center;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+#left-sidebar li{
+    padding: 6px;
+    font-size: 1.3em;
+}
+
+#definition{
+    width: 900px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    padding: 35px 30px;
+}
+
+#poem h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+#zen{
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin: 10px 0;
+}
+
+#white-band{
+    background-color: rgb(255,255,255);
+}
+
+#info-block{
+    border-top: 4px solid rgb(97,150,203);
+    text-align: center;
+    width: 40%;
+    margin: 10px 20px;
+    display: inline-block;
+}
+/* #info-block h1{
+    font-size: ;
+} */

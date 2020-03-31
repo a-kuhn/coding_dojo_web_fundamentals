@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+    <meta name="description" content="this is an exercise in creating a form with html">
+</head>
+
+<body>
+    <form action="process.php" method="post">
+        <p>My Registration Form</p>
+        <label for="first_name">First Name:</label>
+        <input type="text" name="first_name" id="first_name">
+
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name" id="last_name">
+
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+
+        <label for="password">Password:</label>
+        <input type="password" name="password" id="password">
+        <label for="password_confirm">PW Confirm:</label>
+        <input type="password" name="password_confirm" id="password_confirm">
+
+        <label for="birthday">Birthday</label>
+        <input type="date" name="birthday" id="birthday">
+
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="decline">Prefer not to say</label>
+        <input type="radio" id="decline" name="gender" value="decline">
+
+        <textarea name="description" cols="30" rows="10">A short description about yourself:</textarea>
+
+        <select name="favorite language">
+            <option value="JavaScript">JavaScript</option>
+            <option value="python">python</option>
+            <option value="CSS">CSS</option>
+            <option value="french">French</option>
+        </select>
+
+        <input type="submit" value="Submit">
+
+    </form>
+
+</body>
+
+
+</html>

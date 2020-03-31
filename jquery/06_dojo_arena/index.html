@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>groupProject</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div id="arena">
+
+        <div id="select-arena" class="card" style="width: 18rem;">
+            <div class="card-body ">
+                <h5 class="card-title">Select Arena</h5>
+                <div class="row justify-content-md-center w-100">
+                    <button class="btn btn-outline-secondary">beach</button>
+                    <button class="btn btn-outline-secondary">dojo</button>
+                    <button class="btn btn-outline-secondary">earth</button>
+                    <button class="btn btn-outline-secondary">forest</button>
+                    <button class="btn btn-outline-secondary">matrix</button>
+                    <button class="btn btn-outline-secondary">snow</button>
+                </div>
+            </div>
+        </div> <!-- end of select-arena -->
+
+        <div id="select-players" class="card">
+            <header><h2>Select Players</h2></header>
+            <select id='player1' name="Select Players">
+                <option value="Select Ninja">Select Ninja</option>
+                <option value="donny">Donny</option>
+                <option value="leo">Leo</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+            </select>
+            <select id='player2' name="Select Players">
+                <option value="Select Ninja">Select Ninja</option>
+                <option value="donny">Donny</option>
+                <option value="leo">Leo</option>
+                <option value="mikey">Mikey</option>
+                <option value="raphael">Raphael</option>
+            </select>
+        </div> <!-- end of select players -->
+
+        <img id="player1-img" src="" alt="">
+        <img id="player2-img" src="" alt="">
+
+    </div>  <!-- end of arena -->
+    <script src="apps.js"></script>
+</body>
+</html>

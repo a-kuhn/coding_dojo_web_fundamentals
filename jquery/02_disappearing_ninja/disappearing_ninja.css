@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 300px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+button{
+    margin-top: 20px;
+    margin-left: 450px;
+}

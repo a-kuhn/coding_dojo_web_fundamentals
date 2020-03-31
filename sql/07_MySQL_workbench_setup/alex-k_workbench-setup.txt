@@ -1,0 +1,1 @@
+SET SQL_SAFE_UPDATES = 0;USE twitter;INSERT INTO users (first_name, last_name, handle, birthday)VALUES ('alex', 'kuhn', 'a_kuhn_', '1989-11-23');UPDATE usersSET first_name = 'Alex', last_name = 'Kuhn'WHERE id = 9;DELETE FROM usersWHERE first_name = 'Alex’;SELECT *FROM users;
